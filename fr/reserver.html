@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book — NeonRide Template</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Réserver — NeonRide Template</title>
+  <link rel="stylesheet" href="../styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Russo+One&display=swap" rel="stylesheet">
@@ -13,37 +13,37 @@
   <div class="noise"></div>
   <header class="site-header site-header--nav">
     <div class="logo">
-      <img src="assets/scooter-hero.jpg" alt="NeonRide">
+      <img src="../assets/scooter-hero.jpg" alt="NeonRide">
       <div>
-        <span class="label">Miami Vice template</span>
+        <span class="label">Template Miami Vice</span>
         <h1>NeonRide</h1>
       </div>
     </div>
     <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="motos.html">Bikes</a>
-      <a class="active" href="reserver.html">Book</a>
-      <a href="paiement.html">Payment</a>
+      <a href="index.html">Accueil</a>
+      <a href="motos.html">Motos</a>
+      <a class="active" href="reserver.html">Réserver</a>
+      <a href="paiement.html">Paiement</a>
       <a href="contact.html">Contact</a>
     </nav>
     <div class="lang-switch">
-      <span class="active">EN</span>
-      <a href="fr/reserver.html">FR</a>
+      <a href="../reserver.html">EN</a>
+      <span class="active">FR</span>
     </div>
     <a class="cta" href="https://wa.me/6281200000000" target="_blank">WhatsApp</a>
   </header>
 
   <main>
     <section class="page-hero">
-      <h2>WhatsApp-ready booking form</h2>
-      <p>Duplicate this flow, adjust the dropdowns (bike list, delivery zones, payments) and you’re good.</p>
+      <h2>Formulaire express</h2>
+      <p>Remplis les champs, clique sur « Envoyer sur WhatsApp » et on confirme en moins de 5 minutes.</p>
     </section>
 
     <section class="form-section">
       <form class="reservation-form" id="reservationForm">
         <div class="form-grid">
           <label>
-            <span>Bike</span>
+            <span>Moto</span>
             <select name="bike">
               <option value="Shadow Cruiser 750">Shadow Cruiser 750</option>
               <option value="CBR Neon Sport">CBR Neon Sport</option>
@@ -51,48 +51,48 @@
             </select>
           </label>
           <label>
-            <span>Duration</span>
+            <span>Durée</span>
             <select name="duration">
-              <option value="1 day">1 day – 200K IDR</option>
-              <option value="3 days">3 days – 1.65 Mio</option>
-              <option value="7 days">7 days – 2.75 Mio</option>
-              <option value="30 days">30 days – 7 Mio</option>
+              <option value="1 jour">1 jour – 200K IDR</option>
+              <option value="3 jours">3 jours – 1,65 Mio</option>
+              <option value="7 jours">7 jours – 2,75 Mio</option>
+              <option value="30 jours">30 jours – 7 Mio</option>
             </select>
           </label>
           <label>
-            <span>Delivery</span>
+            <span>Livraison</span>
             <select name="delivery">
-              <option value="Villa">Villa / home</option>
-              <option value="Hotel">Hotel / resort</option>
-              <option value="Pick-up">Pick-up at base</option>
+              <option value="Villa">Villa / maison</option>
+              <option value="Hôtel">Hôtel / resort</option>
+              <option value="Pick-up">Pick-up à la base</option>
             </select>
           </label>
           <label>
-            <span>Date / time</span>
-            <input type="text" name="datetime" placeholder="16 Feb · 10 AM" required>
+            <span>Date / heure souhaitée</span>
+            <input type="text" name="datetime" placeholder="16 février · 10h" required>
           </label>
           <label>
-            <span>Payment method</span>
+            <span>Paiement</span>
             <select name="payment">
               <option value="Cash IDR">Cash IDR</option>
-              <option value="Local transfer">Local transfer</option>
+              <option value="Virement local">Virement local</option>
               <option value="Wise / Revolut">Wise / Revolut</option>
               <option value="Crypto USDT">Crypto (USDT)</option>
-              <option value="Card">Credit card</option>
+              <option value="Carte bancaire">Carte bancaire</option>
             </select>
           </label>
           <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="First name" required>
+            <span>Nom</span>
+            <input type="text" name="name" placeholder="Ton prénom" required>
           </label>
         </div>
         <label>
-          <span>Notes (optional)</span>
-          <textarea name="notes" rows="4" placeholder="Need surf rack, second helmet, etc."></textarea>
+          <span>Notes (optionnel)</span>
+          <textarea name="notes" rows="4" placeholder="Besoin d'un surf rack, second casque, etc."></textarea>
         </label>
         <div class="hero__actions" style="justify-content:flex-start;">
-          <button class="btn btn--pink" type="submit">Send to WhatsApp</button>
-          <a class="btn btn--ghost" href="https://wa.me/6281200000000" target="_blank">Chat directly</a>
+          <button class="btn btn--pink" type="submit">Envoyer sur WhatsApp</button>
+          <a class="btn btn--ghost" href="https://wa.me/6281200000000" target="_blank">Parler direct</a>
         </div>
       </form>
     </section>
@@ -102,6 +102,6 @@
     <p>© 2026 NeonRide Template · Bali</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="../script.js"></script>
 </body>
 </html>

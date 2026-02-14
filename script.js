@@ -26,13 +26,13 @@
       e.preventDefault();
       const data = new FormData(reservationForm);
       const msg = `NEONRIDE TEMPLATE%0A` +
-        `Moto : ${data.get('bike')}%0A` +
-        `Durée : ${data.get('duration')}%0A` +
-        `Livraison : ${data.get('delivery')}%0A` +
-        `Date : ${data.get('datetime')}%0A` +
-        `Paiement : ${data.get('payment')}%0A` +
-        `Nom : ${data.get('name')}%0A` +
-        `Notes : ${data.get('notes') || 'Aucune'}`;
+        `Bike: ${data.get('bike')}%0A` +
+        `Duration: ${data.get('duration')}%0A` +
+        `Delivery: ${data.get('delivery')}%0A` +
+        `Date: ${data.get('datetime')}%0A` +
+        `Payment: ${data.get('payment')}%0A` +
+        `Name: ${data.get('name')}%0A` +
+        `Notes: ${data.get('notes') || 'None'}`;
       window.open(`https://wa.me/6281200000000?text=${msg}`, '_blank');
     });
   }

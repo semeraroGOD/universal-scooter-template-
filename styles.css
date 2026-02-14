@@ -94,6 +94,18 @@ main { width: min(1200px, 100%); margin: 0 auto; padding: 0 24px 80px; }
   height: 320px;
   object-fit: cover;
 }
+.hero__visual-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+.hero__visual-grid img {
+  height: 180px;
+}
 .hero__visual-badges {
   display: flex;
   flex-wrap: wrap;
